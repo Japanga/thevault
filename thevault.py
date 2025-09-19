@@ -49,6 +49,12 @@ def on_button_click15():
 def on_button_click16():
     """Function to be called when the button is clicked."""
     messagebox.showinfo("ARTICLE CONTENT", "Zombies are an ancient Wiki and /dbs/ term that goes all the way back to 2018, usually used to describe braindead, monotonous, mindbroken zombie-like behavior, or a general interest in the macabre, undead aesthetic of zombies. The first zombie will always be FOAZ, who is referred to as the Father of all Zombies. The second was the Belgian, who is called POAZ, Prince of all Zombies as an obvious reference to Vegeta. Warden of all Zombies, or WOAZ is a phrase that was sometimes used by Discordhan. MOAZ,Mother of all Zombies was previously said in posts by the Jirenscholars, but was claimed and conquered by Rukiafag in 2022 as a reference to his effeminate nature, and various fan arts and OCs he has been known to post through the years, depicting Rukia as a half-undead Hollow with black/yellow eyes and the bone mask worn by Ichigo and the Vizards. He called himself MOAZ when he was encouraged to induct the straitjacket edit to the original Miraheze Wiki, but the name is rarely used in the present day outside of Wiki activities and the original page was not conserved in the original archiving effort. A few rare modern joke uses of the Zombie monkier came and went, like TOAZ and KOAZ: but it generally remains a part of the ancient /dbs/ world that stays sacred and buried in the past.")
+def on_button_click17():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "SHAMEEL is an eminent BITCHlymong in the board /dbs/ of 4chan. While not much is known about him, he is mostly known among DBSscholars for randomly entering threads and asking for news on a movie that aired literally years ago, and exclusively TYPING IN ALL CAPS. This coupled with his exclusive use of IESLB seems to suggest that he lives in the third world, probably somewhere news is delivered by horse carriage or by the town crier. He is well known for frequently posting his penis, which looks like a literal turd just to piss off the mods, and getting banned for 30 days as a result, only to return when the ban lifts and ask about the Broly movie again. Surprisingly, he is a decent artist in Skribbl games. Like all CUCKlyshitters, he is utterly, completely, absolutely MINDBROKEN by the existence of GODren. ")
+def on_button_click18():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "This illustrious and ubiquitous phrase is one of the myriad hallmarks of the effervescent Basilica of predominant, preponderant, prestigious, pompous, prestidigitating pontifications, otherwise known as /dbs/ to the common rabble. Like many of the linguistic resources and memetic jargon that are concoted upon the threads, it holds a heavy burden of meaning and implications, and stems out of the limited boundaries of the mundane dialectics that constitute the English vernacular. In this particular case, the exclamation Gentlemen followed by a ellipsis, basically encourages any and all who bear witness, to Report the subject at hand. That is, to throw him to the bitch Janny hounds to get ripped to shreds by them. (that is if he's not a CHAD evader) . This is a clever tactic to avoid the Global rule 7 Submitting false or misclassified reports, or otherwise abusing the reporting system. Replying to a thread stating that you reported or saged it, or another post, is also not allowed. Upon which you may succumb to a petty warning or a ban if you state that you reported someone, or even encouraging people to report someone, like a lot of newfags keep realizing it the hard way. The original phrase used to be longer. Specifically You know what to do, gentlemen. And has since been abbreviated with an ellipsis for accessibility. Furthermore, synonyms such as G-Squad... or simply G (verb) have become popular.")
 
 
 # Create the main window
@@ -79,6 +85,8 @@ button13 = tk.Button(root, text="TablosAF", command=on_button_click13, bg="black
 button14 = tk.Button(root, text="Samir34", command=on_button_click14, bg="black", fg="red")
 button15 = tk.Button(root, text="Democratic Republic of the Congo", command=on_button_click15, bg="black", fg="red")
 button16 = tk.Button(root, text="Zombies", command=on_button_click16, bg="black", fg="red")
+button17 = tk.Button(root, text="SHAMEEL", command=on_button_click17, bg="black", fg="red")
+button18 = tk.Button(root, text="Gentlemen", command=on_button_click18, bg="black", fg="red")
 button.pack(side=tk.LEFT)
 button.place(x=105, y=60)
 button2.pack(side=tk.LEFT)
@@ -111,6 +119,10 @@ button15.pack(side=tk.LEFT)
 button15.place(x=105, y=180)
 button16.pack(side=tk.LEFT)
 button16.place(x=105, y=290)
+button17.pack(side=tk.LEFT)
+button17.place(x=245, y=255)
+button18.pack(side=tk.LEFT)
+button18.place(x=180, y=140)
 try:
     image = tk.PhotoImage(file="theVAULT.png") 
     # For PNG, use: image = tk.PhotoImage(file="your_image.png")
