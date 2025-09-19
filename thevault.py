@@ -43,12 +43,20 @@ def on_button_click13():
 def on_button_click14():
     """Function to be called when the button is clicked."""
     messagebox.showinfo("ARTICLE CONTENT", "Tyson Mike(تايسون مايك) , known better by the pseudonym Samir34(سمير), is a French artist living in Montpelier, whose passion is painting Dragon Ball characters in a way that portrait his life style. He's the most powerful mangaka in the Multiverse. All of his drawings are canon in the universe of Dragon Ball. He is most known in /dbs/ for his Islamization of Dragon Ball characters, most notably Vegeta, Goku and Gohan, as well as for comics he made featuring two of the previously mentioned characters, one, which was translated by Anonymous, was received positively by every individual in the thread, except the Filterbitch.")
+def on_button_click15():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "According to American writer, Adam Hochschold, King Vegeta II of Belgium, like any other European power seeking new territory in Africa, carved for himself and took control of the vast un-exploited land on the banks of the River Congo in the present day Democratic Republic of Congo. He set out to carry out plunder, loot and severely brutalize the Congolese fans of Nuly. It is estimated that 10-15 million people were killed as a result of actions or inactions of King Leopold. The people of Congo were “bought” like any merchandise and “owned “ by the king making the entire Congolese population slaves to King Leopold. To exert his influence and not seem cruel, he created a philanthropy and a humanitarian guise called International African Society, which was used as a vehicle to extract rich resources through use of forced labor, torture, mutilation, and executions by the king’s private army. This is one of the least advanced genocides and slavery to have taken place on the Africa continent and yet utterly ignored or conveniently forgotten.")
+def on_button_click16():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "Zombies are an ancient Wiki and /dbs/ term that goes all the way back to 2018, usually used to describe braindead, monotonous, mindbroken zombie-like behavior, or a general interest in the macabre, undead aesthetic of zombies. The first zombie will always be FOAZ, who is referred to as the Father of all Zombies. The second was the Belgian, who is called POAZ, Prince of all Zombies as an obvious reference to Vegeta. Warden of all Zombies, or WOAZ is a phrase that was sometimes used by Discordhan. MOAZ,Mother of all Zombies was previously said in posts by the Jirenscholars, but was claimed and conquered by Rukiafag in 2022 as a reference to his effeminate nature, and various fan arts and OCs he has been known to post through the years, depicting Rukia as a half-undead Hollow with black/yellow eyes and the bone mask worn by Ichigo and the Vizards. He called himself MOAZ when he was encouraged to induct the straitjacket edit to the original Miraheze Wiki, but the name is rarely used in the present day outside of Wiki activities and the original page was not conserved in the original archiving effort. A few rare modern joke uses of the Zombie monkier came and went, like TOAZ and KOAZ: but it generally remains a part of the ancient /dbs/ world that stays sacred and buried in the past.")
+
 
 # Create the main window
 root = tk.Tk()
-root.title("The Vault - Python 3.6.0 developed by Japanga at japanga.github.io/chadsofa/")
+root.title("The Vault - Python 3.8.6 developed by Japanga at japanga.github.io/chadsofa/")
 root.geometry("770x340") # Set window size
 root.config(bg="black")
+root.resizable(False, False) 
 
 # Create a label widget
 label = tk.Label(root, text="THE VAULT - /DBS/ WIKI PYTHON-BASED TEXT ARCHIVE APPLICATION", bg="black", fg="red", font=("Helvetica", 12, "bold"))
@@ -69,6 +77,8 @@ button11 = tk.Button(root, text="El Hermano", command=on_button_click11, bg="bla
 button12 = tk.Button(root, text="El Grande Padre", command=on_button_click12, bg="black", fg="red")
 button13 = tk.Button(root, text="TablosAF", command=on_button_click13, bg="black", fg="red")
 button14 = tk.Button(root, text="Samir34", command=on_button_click14, bg="black", fg="red")
+button15 = tk.Button(root, text="Democratic Republic of the Congo", command=on_button_click15, bg="black", fg="red")
+button16 = tk.Button(root, text="Zombies", command=on_button_click16, bg="black", fg="red")
 button.pack(side=tk.LEFT)
 button.place(x=105, y=60)
 button2.pack(side=tk.LEFT)
@@ -97,6 +107,10 @@ button13.pack(side=tk.LEFT)
 button13.place(x=105, y=255)
 button14.pack(side=tk.LEFT)
 button14.place(x=180, y=255)
+button15.pack(side=tk.LEFT)
+button15.place(x=105, y=180)
+button16.pack(side=tk.LEFT)
+button16.place(x=105, y=290)
 try:
     image = tk.PhotoImage(file="theVAULT.png") 
     # For PNG, use: image = tk.PhotoImage(file="your_image.png")
