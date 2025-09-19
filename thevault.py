@@ -37,7 +37,12 @@ def on_button_click11():
 def on_button_click12():
     """Function to be called when the button is clicked."""
     messagebox.showinfo("ARTICLE CONTENT", "El Grande Padre (エル・グランデー・パドレー Eru Gurandei Padorei), also known as EGP for short, is the strongest being in all of existence. He is the strongest of the Angels (by a considerable margin), who are the most powerful and highest beings in the multiverse, contested only by The One Above All and Gohan Blanco, and far surpassing the Gods of Destruction (who themselves are considered above the power of any mortal). In order to achieve his evil plans, he recruited Jiren, Rolf and Red Shaggy to do his bidding. Even though Zeno is the creator and God of the multiverse, EGP is still more powerful than him, due to Zeno being a jobber who can't follow GoD tier speeds and falling on his face like a retard when summoned by Gokek. It has long been theorized by Spics that EGP is evil and plans to usurp Zeno. They therefore think he is the final boss and only Gohan Blanco can stop him.")
-
+def on_button_click13():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "TablosAF, despite being a huge influence for the Dragon Ball community, he is very infamous for several comments and actions he made, such as criticizing several fan-manga authors for stealing his ideas and concepts for their versions of DB AF, stating that he is the true creator of AF. He had also harshly criticized Toyotarou, saying that his direction in Super is fine but lacks the essence of Dragon Ball (which, sometime later became a meme in the Spanish community as a mockery of him and western Dragon Ball fans obsessed with blood and gore). The form was originally designed by David Montiel Franco who stated that this art wasn't even supposed to be Goku or Super Saiyan 5, but his own OC, Tablos, in a transformation he called Spirit Killer. The image was first published in the Spanish magazine, Hobby Consolas. This form would go on to represent Super Saiyan 5 after it was included in many other fan manga, most famously by Youngjiji and another by Toyotarou, the latter of which was scouted to aid author Akira Toriyama in the new Dragon Ball Super manga due to his work with his doujinshi Dragon Ball AF, based on the concept Franco originally put forth. Despite this, most fans agree that if Super Saiyan 5 existed, it would be the design Toyatarou chose for his version in AF, given Toyatarou is now the new lead author of Dragon Ball after the passing of Toriyama.")
+def on_button_click14():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "Tyson Mike(تايسون مايك) , known better by the pseudonym Samir34(سمير), is a French artist living in Montpelier, whose passion is painting Dragon Ball characters in a way that portrait his life style. He's the most powerful mangaka in the Multiverse. All of his drawings are canon in the universe of Dragon Ball. He is most known in /dbs/ for his Islamization of Dragon Ball characters, most notably Vegeta, Goku and Gohan, as well as for comics he made featuring two of the previously mentioned characters, one, which was translated by Anonymous, was received positively by every individual in the thread, except the Filterbitch.")
 
 # Create the main window
 root = tk.Tk()
@@ -62,6 +67,8 @@ button9 = tk.Button(root, text="Cabbagang", command=on_button_click9, bg="black"
 button10 = tk.Button(root, text="El Especialista", command=on_button_click10, bg="black", fg="red")
 button11 = tk.Button(root, text="El Hermano", command=on_button_click11, bg="black", fg="red")
 button12 = tk.Button(root, text="El Grande Padre", command=on_button_click12, bg="black", fg="red")
+button13 = tk.Button(root, text="TablosAF", command=on_button_click13, bg="black", fg="red")
+button14 = tk.Button(root, text="Samir34", command=on_button_click14, bg="black", fg="red")
 button.pack(side=tk.LEFT)
 button.place(x=105, y=60)
 button2.pack(side=tk.LEFT)
@@ -86,6 +93,10 @@ button11.pack(side=tk.LEFT)
 button11.place(x=105, y=220)
 button12.pack(side=tk.LEFT)
 button12.place(x=180, y=220)
+button13.pack(side=tk.LEFT)
+button13.place(x=105, y=255)
+button14.pack(side=tk.LEFT)
+button14.place(x=180, y=255)
 try:
     image = tk.PhotoImage(file="theVAULT.png") 
     # For PNG, use: image = tk.PhotoImage(file="your_image.png")
