@@ -55,6 +55,9 @@ def on_button_click17():
 def on_button_click18():
     """Function to be called when the button is clicked."""
     messagebox.showinfo("ARTICLE CONTENT", "This illustrious and ubiquitous phrase is one of the myriad hallmarks of the effervescent Basilica of predominant, preponderant, prestigious, pompous, prestidigitating pontifications, otherwise known as /dbs/ to the common rabble. Like many of the linguistic resources and memetic jargon that are concoted upon the threads, it holds a heavy burden of meaning and implications, and stems out of the limited boundaries of the mundane dialectics that constitute the English vernacular. In this particular case, the exclamation Gentlemen followed by a ellipsis, basically encourages any and all who bear witness, to Report the subject at hand. That is, to throw him to the bitch Janny hounds to get ripped to shreds by them. (that is if he's not a CHAD evader) . This is a clever tactic to avoid the Global rule 7 Submitting false or misclassified reports, or otherwise abusing the reporting system. Replying to a thread stating that you reported or saged it, or another post, is also not allowed. Upon which you may succumb to a petty warning or a ban if you state that you reported someone, or even encouraging people to report someone, like a lot of newfags keep realizing it the hard way. The original phrase used to be longer. Specifically You know what to do, gentlemen. And has since been abbreviated with an ellipsis for accessibility. Furthermore, synonyms such as G-Squad... or simply G (verb) have become popular.")
+def on_button_click19():
+    """Function to be called when the button is clicked."""
+    messagebox.showinfo("ARTICLE CONTENT", "Marvin Abundis Ramirez, also known as El Especialista, is a fucking CHAD C to the H to the A to the D. Holy Based. In March 2018, as the anime version of the Tournament of Power was reaching its climax, many venues in Mexico were planning public viewing parties. At least one stripclub is known to have promised free lapdances if Goku would emerge as the victor in the upcoming battle between him and Jiren. In the midst of this colossal Mexican hype train, Toei and the Japanese embassy in Mexico wrote to the authorities about how these public viewings would be illegal, as they'd go against copyright law. The Mexican population was distraught over not being able to watch their favorite anime at their favorite taco house, but just in the nick of time, El Especialista stepped up. With his supreme knowledge, El Especialista quickly BTFO'd Toei and the authorities, and the Mexican taco houses were able to hold their public viewings after all.")
 
 
 # Create the main window
@@ -87,6 +90,7 @@ button15 = tk.Button(root, text="Democratic Republic of the Congo", command=on_b
 button16 = tk.Button(root, text="Zombies", command=on_button_click16, bg="black", fg="red")
 button17 = tk.Button(root, text="SHAMEEL", command=on_button_click17, bg="black", fg="red")
 button18 = tk.Button(root, text="Gentlemen", command=on_button_click18, bg="black", fg="red")
+button19 = tk.Button(root, text="Marvin Abundis Ramirez / EL ESPECIALISTA", command=on_button_click18, bg="black", fg="red")
 button.pack(side=tk.LEFT)
 button.place(x=105, y=60)
 button2.pack(side=tk.LEFT)
@@ -108,21 +112,23 @@ button9.place(x=105, y=180)
 button10.pack(side=tk.LEFT)
 button10.place(x=180, y=180)
 button11.pack(side=tk.LEFT)
-button11.place(x=105, y=220)
+button11.place(x=105, y=210)
 button12.pack(side=tk.LEFT)
-button12.place(x=180, y=220)
+button12.place(x=180, y=210)
 button13.pack(side=tk.LEFT)
-button13.place(x=105, y=255)
+button13.place(x=105, y=277)
 button14.pack(side=tk.LEFT)
-button14.place(x=180, y=255)
+button14.place(x=180, y=277)
 button15.pack(side=tk.LEFT)
-button15.place(x=105, y=180)
+button15.place(x=103, y=180)
 button16.pack(side=tk.LEFT)
-button16.place(x=105, y=290)
+button16.place(x=105, y=310)
 button17.pack(side=tk.LEFT)
-button17.place(x=245, y=255)
+button17.place(x=245, y=277)
 button18.pack(side=tk.LEFT)
 button18.place(x=180, y=140)
+button19.pack(side=tk.LEFT)
+button19.place(x=105, y=245)
 try:
     image = tk.PhotoImage(file="theVAULT.png") 
     # For PNG, use: image = tk.PhotoImage(file="your_image.png")
@@ -135,7 +141,7 @@ except tk.TclError as e:
 # Create a Label widget to display the image
 image_label = tk.Label(root, image=image)
 image_label.pack()
-image_label.place(x=340, y=140)
+image_label.place(x=350, y=140)
 
 # Keep a reference to the image to prevent garbage collection
 # This is crucial for PhotoImage objects
